@@ -231,6 +231,11 @@ a {
 .landing .content .button {
   margin-top: 30px;
 }
+@media (max-width:992px) {
+  .landing .content .button {
+      margin-top: 30px auto;
+  }
+}
 .landing .image {
   display: flex;
   justify-content: center;
